@@ -4,6 +4,7 @@
 
 
 run_test_all: run_test_average run_test_factors run_test_max run_test_max run_test_min run_test_mode
+	md5sum -c ./.checksums.txt
 
 run_test_average: test_average
 	./test_average
