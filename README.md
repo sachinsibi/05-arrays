@@ -97,7 +97,7 @@ testing a little easier.
    `{2, 3, 3, 5, 5, 5}`
    
    Implement this function in the `solns.c` file. You can test it by
-   compiling the `test_mode.c` file like so
+   compiling the `test_factors.c` file like so
        
             gcc test_factors.c solns.c -o test_factors
             
