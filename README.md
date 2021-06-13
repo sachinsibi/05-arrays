@@ -71,7 +71,17 @@ testing a little easier.
    and running it or, if you've downloaded the `Makefile`, by simply
    running `make run_test_mode`.
    
-   Hint: 
+   Hint: One way to implement this would be to create a new array
+   (let's call it `counts`) that goes from 0 to the largest element in
+   the given array. Then go through the given array and store the
+   number of times each element occurs in the `counts` array. If your
+   original array were `{2, 2, 4, 4, 4, 5}`, the counts array would be
+   `{0, 0, 2, 0, 3, 1}` meaning `0` (first index) occurs `0` times,
+   `1` occurs `0` times, `2` occurs `2` times, `3` occurs `0` times,
+   `4` occurs `3` times and `5` occurs once. Then go through this
+   `counts` array and identify the element that occurs the maximum
+   number of times (similar to how you did the `max` problem). That's
+   the answer.
    
 1. The prime factors of a number are the prime numbers which when
    multiplied yield the given number. E.g. The prime factors of `2250`
@@ -94,17 +104,8 @@ testing a little easier.
    and running it or, if you've downloaded the `Makefile`, by simply
    running `make run_test_factors`.
    
-   
 
-
-   
-
-
-
-   
-
-
-   
-
-
+    
+    
+    
 
